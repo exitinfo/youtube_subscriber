@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/elliotforbes/youtube-stats/youtube"
+	"github.com/elliotforbes/youtube-stats/websocket"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
